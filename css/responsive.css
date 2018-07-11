@@ -1,0 +1,59 @@
+.main {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+@media screen and (min-width: 426px) {
+  .name {
+    font-size: 2.5em;
+  }
+  .description {
+    font-size: 1.25em;
+  }
+  .logo {
+    position: relative;
+    width: 110px;
+    height: 110px;
+    margin-top: 10px;
+  }
+}
+
+@media screen and (min-width: 543px) {
+  .name {
+    font-size: 3em;
+  }
+}
+
+@media screen and (min-width: 627px) {
+  .logo {
+    position: relative;
+    width: 80px;
+    height: 80px;
+    margin-top: 10px;
+  }
+}
+
+@media screen and (min-width: 700px) {
+  .project {
+    width: 50%;
+  }
+  h2 {
+    display: inline-block;
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .project {
+    width: 33%;
+  }
+  body {
+    width: 1024px;
+  }
+  h2 {
+    font-size: 2em;
+  }
+  h3 {
+    font-size: 1.6em;
+  }
+}
